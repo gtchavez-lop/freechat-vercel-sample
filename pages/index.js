@@ -88,7 +88,6 @@ const HomePage = (e) => {
         <p className="text-4xl mb-10">Live Chat</p>
         <main
           ref={chatbox}
-          onLoad={scrollChatboxToBottom}
           className="h-screen max-h-[50vh] bg-gray-300 p-5 overflow-y-scroll flex flex-col"
         >
           {chats.map((chat) => {
